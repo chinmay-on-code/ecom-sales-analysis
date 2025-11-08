@@ -1,7 +1,6 @@
 from pathlib import Path
 import pandas as pd
 
-
 class Olist:
     def __init__(self):
         pass
@@ -12,9 +11,6 @@ class Olist:
         get_data():
             Loads and returns a dictionary where keys are dataset names (e.g., 'sellers', 'orders')
             and values are pandas DataFrames loaded from corresponding CSV files.
-
-        ping():
-            Prints "pong" to confirm the method is callable.
     """
     def get_data(self):
         """
